@@ -360,7 +360,7 @@ const abilities = [
     "image": "images/adamsmasher.svg"
   }
 ];
-const tierOrder = ["RNG Pool","C","B","A","S","X"];
+const tierOrder = ["X","S","A","B","C","RNG Pool"];
 const tierBoard = document.querySelector("#tierBoard");
 const modal = document.querySelector("#abilityModal");
 const modalImage = document.querySelector("#modalImage");
