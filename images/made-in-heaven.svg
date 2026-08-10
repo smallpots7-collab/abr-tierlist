@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121827"/><stop offset="1" stop-color="#080b12"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#f5c451" stop-opacity=".28"/><stop offset="1" stop-color="#f5c451" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="700" height="700" rx="44" fill="url(#bg)"/>
+<circle cx="350" cy="300" r="220" fill="url(#glow)"/>
+<circle cx="350" cy="300" r="148" fill="none" stroke="#f5c451" stroke-width="5" opacity=".72"/>
+<circle cx="350" cy="300" r="112" fill="#f5c451" opacity=".08"/>
+<text x="350" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="112" font-weight="800" fill="#f5c451">MIH</text>
+<text x="350" y="535" text-anchor="middle" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#f5f7fb">Made In Heaven</text>
+<text x="350" y="578" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#f5c451">MYTHIC</text>
+<text x="350" y="626" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#7f899d">REPLACE THIS IMAGE LATER</text>
+</svg>
