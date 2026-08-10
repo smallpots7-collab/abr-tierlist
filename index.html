@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080b0f">
+<title>A Bizarre Requiem Tier List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="site">
+<header class="topbar">
+<div>
+<p class="eyebrow">Community Compiled • Live Board</p>
+<h1>A Bizarre Requiem</h1>
+<p>Official ability tier list and current RNG roll pool.</p>
+</div>
+<div class="status"><span class="dot"></span> Updated tier board</div>
+</header>
+
+<div id="tierBoard" class="board"></div>
+<p class="note">Click any ability for details. Replace the placeholder files inside <b>images/</b> with your real screenshots whenever you want.</p>
+</main>
+
+<dialog id="abilityModal">
+<div class="modal">
+<button id="closeModal" class="close" type="button" aria-label="Close">×</button>
+<div class="modal-media"><img id="modalImage" alt=""></div>
+<div class="modal-info">
+<div class="badges"><span id="modalTier" class="tier-badge"></span><span id="modalRarity" class="rarity-badge"></span></div>
+<h2 id="modalTitle"></h2>
+<p id="modalText"></p>
+<div class="modal-id">Internal Ability: <span id="modalId"></span></div>
+</div>
+</div>
+</dialog>
+<script src="script.js"></script>
+</body>
+</html>
